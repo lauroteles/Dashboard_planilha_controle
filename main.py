@@ -36,39 +36,44 @@ lista_core2 = [guide,genial]
 for corretora in lista_core:
     nome_ultima_col = corretora.columns[-1]
 
+    novo_nome = 'Dezembro/2023'
+    corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
+for corretora in lista_core:
+    nome_ultima_col = corretora.columns[-2]
+
     novo_nome = 'Novembro/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 for corretora in lista_core:
-    nome_ultima_col = corretora.columns[-2]
+    nome_ultima_col = corretora.columns[-3]
 
     novo_nome = 'Outubro/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core:
-    nome_ultima_col = corretora.columns[-3]
+    nome_ultima_col = corretora.columns[-4]
 
     novo_nome = 'Setembro/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
     lista_core = [btg,guide,genial,agora,orama,novas]
 
 for corretora in lista_core:
-    nome_ultima_col = corretora.columns[-4]
+    nome_ultima_col = corretora.columns[-5]
 
     novo_nome = 'Agosto/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core:
-    nome_ultima_col = corretora.columns[-5]
+    nome_ultima_col = corretora.columns[-6]
 
     novo_nome = 'julho/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core:
-    nome_ultima_col = corretora.columns[-6]
+    nome_ultima_col = corretora.columns[-7]
 
     novo_nome = 'junho/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
@@ -76,14 +81,14 @@ for corretora in lista_core:
 
 
 for corretora in lista_core:
-    nome_ultima_col = corretora.columns[-7]
+    nome_ultima_col = corretora.columns[-8]
 
     novo_nome = 'Maio/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core:
-    nome_ultima_col = corretora.columns[-8]
+    nome_ultima_col = corretora.columns[-9]
 
     novo_nome = 'Abril/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
@@ -91,20 +96,20 @@ for corretora in lista_core:
 
 
 for corretora in lista_core:
-    nome_ultima_col = corretora.columns[-9]
+    nome_ultima_col = corretora.columns[-10]
 
     novo_nome = 'Março/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-10]
+    nome_ultima_col = corretora.columns[-11]
 
     novo_nome = 'fereiro/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-11]
+    nome_ultima_col = corretora.columns[-12]
 
     novo_nome = 'Janeiro/2023'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
@@ -115,49 +120,49 @@ for corretora in lista_core2:
 # ##########
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-12]
+    nome_ultima_col = corretora.columns[-13]
 
     novo_nome = 'Dezembro/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-13]
+    nome_ultima_col = corretora.columns[-14]
 
     novo_nome = 'Novembro/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-14]
+    nome_ultima_col = corretora.columns[-15]
 
     novo_nome = 'Outubro/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-15]
+    nome_ultima_col = corretora.columns[-16]
 
     novo_nome = 'Setembro/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-16]
+    nome_ultima_col = corretora.columns[-17]
 
     novo_nome = 'Agosto/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-17]
+    nome_ultima_col = corretora.columns[-18]
 
     novo_nome = 'julho/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-18]
+    nome_ultima_col = corretora.columns[-19]
 
     novo_nome = 'junho/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
@@ -165,21 +170,21 @@ for corretora in lista_core2:
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-19]
+    nome_ultima_col = corretora.columns[-20]
 
     novo_nome = 'Maio/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-20]
+    nome_ultima_col = corretora.columns[-21]
 
     novo_nome = 'Abril/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-21]
+    nome_ultima_col = corretora.columns[-22]
 
     novo_nome = 'Março/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
@@ -187,13 +192,13 @@ for corretora in lista_core2:
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-22]
+    nome_ultima_col = corretora.columns[-23]
 
     novo_nome = 'fereiro/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-23]
+    nome_ultima_col = corretora.columns[-24]
 
     novo_nome = 'Janeiro/2022'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
@@ -204,49 +209,49 @@ for corretora in lista_core2:
 # ##########
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-24]
+    nome_ultima_col = corretora.columns[-25]
 
     novo_nome = 'Dezembro/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-25]
+    nome_ultima_col = corretora.columns[-26]
 
     novo_nome = 'Novembro/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-26]
+    nome_ultima_col = corretora.columns[-27]
 
     novo_nome = 'Outubro/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-27]
+    nome_ultima_col = corretora.columns[-28]
 
     novo_nome = 'Setembro/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-28]
+    nome_ultima_col = corretora.columns[-29]
 
     novo_nome = 'Agosto/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-29]
+    nome_ultima_col = corretora.columns[-30]
 
     novo_nome = 'julho/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-30]
+    nome_ultima_col = corretora.columns[-31]
 
     novo_nome = 'junho/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
@@ -254,34 +259,34 @@ for corretora in lista_core2:
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-31]
+    nome_ultima_col = corretora.columns[-32]
 
     novo_nome = 'Maio/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-32]
+    nome_ultima_col = corretora.columns[-33]
 
     novo_nome = 'Abril/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-33]
+    nome_ultima_col = corretora.columns[-34]
 
     novo_nome = 'Março/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-34]
+    nome_ultima_col = corretora.columns[-35]
 
     novo_nome = 'fereiro/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-35]
+    nome_ultima_col = corretora.columns[-36]
 
     novo_nome = 'Janeiro/2021'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
@@ -292,83 +297,83 @@ for corretora in lista_core2:
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-36]
+    nome_ultima_col = corretora.columns[-37]
 
     novo_nome = 'Dezembro/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-37]
+    nome_ultima_col = corretora.columns[-38]
 
     novo_nome = 'Novembro/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-38]
+    nome_ultima_col = corretora.columns[-39]
 
     novo_nome = 'Outubro/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-39]
+    nome_ultima_col = corretora.columns[-40]
 
     novo_nome = 'Setembro/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-40]
+    nome_ultima_col = corretora.columns[-41]
 
     novo_nome = 'Agosto/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-41]
+    nome_ultima_col = corretora.columns[-42]
 
     novo_nome = 'julho/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-42]
+    nome_ultima_col = corretora.columns[-43]
 
     novo_nome = 'junho/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-43]
+    nome_ultima_col = corretora.columns[-44]
 
     novo_nome = 'Maio/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-44]
+    nome_ultima_col = corretora.columns[-45]
 
     novo_nome = 'Abril/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-45]
+    nome_ultima_col = corretora.columns[-46]
 
     novo_nome = 'Março/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-46]
+    nome_ultima_col = corretora.columns[-47]
 
     novo_nome = 'fereiro/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
 
 for corretora in lista_core2:
-    nome_ultima_col = corretora.columns[-47]
+    nome_ultima_col = corretora.columns[-48]
 
     novo_nome = 'Janeiro/2020'
     corretora.rename(columns={nome_ultima_col:novo_nome},inplace = True)
@@ -410,7 +415,7 @@ colunas_remover_guide = [
 'Unnamed: 15', 'Unnamed: 16',
 'Unnamed: 17', 'Mesa de Operação ', 'Gestão/ Head comercial',
 'Backoffice .2', 'Unnamed: 21', 'Unnamed: 22', 'Unnamed: 23',
-'Unnamed: 24', 'Unnamed: 25', 'Unnamed: 26', 'Unnamed: 27',
+'Unnamed: 24', 'Unnamed: 25', 'Unnamed: 27',
 ]
 
 for col in colunas_remover_guide:
