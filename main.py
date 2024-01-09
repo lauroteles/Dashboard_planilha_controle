@@ -1137,7 +1137,7 @@ try:
 
 
         contagem_de_perfis = dataframe_filtrado['Carteira'].value_counts().reset_index()
-
+        contagem_de_perfis['Carteira'] = contagem_de_perfis['Carteira'].str.replace(' INC','INC')
         grafico_barras_perfil_de_carteira = go.Figure(data=
                                                     [go.Bar(
                                                         x=contagem_de_perfis['Carteira'],
