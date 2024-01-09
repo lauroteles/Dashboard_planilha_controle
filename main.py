@@ -649,7 +649,11 @@ arquivo_final = arquivo_final[['Corretora', 'Nome_cliente', 'Conta', 'Escritorio
 
 arquivo_final_copia = arquivo_final.copy()
 
+
 try:
+    contas_ativas_e_inativas = st.toggle('Contas Ativas e Inativas',key='Seletor_de_contas_ativas')
+
+        
     col1,col2,col3 = st.columns(3)
 
     try:
@@ -745,6 +749,8 @@ try:
             dataframe_filtrado['Soma_dos_valores'] = dataframe_filtrado[mes_escolhido_de_valores_para_contas].sum()
         except:
             st.warning('Não foi possivel obter esses valores')
+        if contas_ativas_e_inativas:
+            dataframe_filtrado = dataframe_filtrado[dataframe_filtrado['Status'].isin(['Ativo','Inativo','Inativa','Ativa'])]    
 
 
 
@@ -1138,6 +1144,7 @@ try:
 
         contagem_de_perfis = dataframe_filtrado['Carteira'].value_counts().reset_index()
         contagem_de_perfis['Carteira'] = contagem_de_perfis['Carteira'].str.replace(' INC','INC')
+
         grafico_barras_perfil_de_carteira = go.Figure(data=
                                                     [go.Bar(
                                                         x=contagem_de_perfis['Carteira'],
