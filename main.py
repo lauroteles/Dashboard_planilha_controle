@@ -571,7 +571,7 @@ arquivo_final = arquivo_final[[
        'Dezembro/2022', 'Janeiro/2023', 'fereiro/2023',
          'Março/2023', 'Abril/2023', 'Maio/2023',
        'junho/2023', 'julho/2023', 'Agosto/2023', 'Setembro/2023',
-       'Outubro/2023','Novembro/2023'
+       'Outubro/2023','Novembro/2023','Dezembro/2023'
 ]]
 
 col_fill_na = ['Janeiro/2020', 'fereiro/2020', 'Março/2020',
@@ -585,7 +585,7 @@ col_fill_na = ['Janeiro/2020', 'fereiro/2020', 'Março/2020',
        'Dezembro/2022', 'Janeiro/2023', 'fereiro/2023',
          'Março/2023', 'Abril/2023', 'Maio/2023',
        'junho/2023', 'julho/2023', 'Agosto/2023', 'Setembro/2023',
-       'Outubro/2023','Novembro/2023'
+       'Outubro/2023','Novembro/2023','Dezembro/2023'
 ]
 
 for col in col_fill_na:
@@ -627,7 +627,7 @@ arquivo_final = arquivo_final[['Corretora', 'Nome_cliente', 'Conta', 'Escritorio
        'Agosto/2022', 'Setembro/2022', 'Outubro/2022', 'Novembro/2022',
        'Dezembro/2022', 'Janeiro/2023', 'fereiro/2023', 'Março/2023',
        'Abril/2023', 'Maio/2023', 'junho/2023', 'julho/2023', 'Agosto/2023',
-       'Setembro/2023', 'Outubro/2023','Novembro/2023'
+       'Setembro/2023', 'Outubro/2023','Novembro/2023','Dezembro/2023'
 ]]
 
 arquivo_final = arquivo_final.merge(aporte_e_retiradas_Dezembro_2023,left_on='Conta',right_on='Conta_Dezembro_2023',how='outer').reset_index()
@@ -645,7 +645,7 @@ arquivo_final = arquivo_final[['Corretora', 'Nome_cliente', 'Conta', 'Escritorio
        'Agosto/2022', 'Setembro/2022', 'Outubro/2022', 'Novembro/2022',
        'Dezembro/2022', 'Janeiro/2023', 'fereiro/2023', 'Março/2023',
        'Abril/2023', 'Maio/2023', 'junho/2023', 'julho/2023', 'Agosto/2023',
-       'Setembro/2023', 'Outubro/2023','Novembro/2023']]
+       'Setembro/2023', 'Outubro/2023','Novembro/2023','Dezembro/2023']]
 
 arquivo_final_copia = arquivo_final.copy()
 
@@ -987,7 +987,7 @@ try:
         'julho/2022', 'Agosto/2022', 'Setembro/2022', 'Outubro/2022',
         'Novembro/2022', 'Dezembro/2022', 'Janeiro/2023', 'fereiro/2023',
         'Março/2023', 'Abril/2023', 'Maio/2023', 'junho/2023', 'julho/2023',
-        'Agosto/2023', 'Setembro/2023', 'Outubro/2023','Novembro/2023']
+        'Agosto/2023', 'Setembro/2023', 'Outubro/2023','Novembro/2023','Dezembro/2023']
         for colunas in colunas_to_numeric2:
             arquivo_final_copia[colunas] = pd.to_numeric(arquivo_final_copia[colunas],errors='coerce')
 
