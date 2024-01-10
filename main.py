@@ -1132,7 +1132,7 @@ try:
                                                 y=pl_assessores_atual['Outubro/2023'],
                                                 marker_color=Blues,
                                                                 )])
-        grafico_pl_assessores_atual.update_layout(title=dict(text='Top 10 PL Assessores Outubro/2023',
+        grafico_pl_assessores_atual.update_layout(title=dict(text='Top 10 PL Assessores Dezembro/2023',
                                                         font=dict(size=20),
                                                         x=0.2,
                                                         y=0.9),
